@@ -21,7 +21,7 @@ body{
 #left{
 	background-color:#f1f1f1;
 	font-family:"Segoe UI",Arial,sans-serif;
-	height: 280px;
+	height: 700px;
 	width: 200px;
 	position: absolute;
 	margin-top: 0px;
@@ -32,7 +32,7 @@ body{
 
 #right{
 	width: 84%;
-	height: 280px;
+	height: 700px;
 	margin-top:10px;
 	margin-bottom: 10px;
 	background-color: #FFFFFF;

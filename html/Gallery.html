@@ -4,9 +4,15 @@
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 		<link type="text/css" rel="stylesheet" href="../css/Gallery.css"/>
 		<title>My Gallery</title>
+		<script type="text/javascript" src="../javascript/gallery.js"></script>
 	</head>
 
 	<body>
+		<div id="imageview" class="view">
+			<span onclick="imageViewClose()">&times;</span>
+			<div>
+			</div>
+		</div>
 		<div id="head">
 			<a href="">Srinivas.com</a>
 
@@ -17,6 +23,7 @@
 			<li><a href="Contact me.html">Contact me</a></li>
 			<li><a href="About me.html">About me</a></li>
 			<li><a id="current" href="Gallery.html">Gallery</a></li>
+			<li><a href="GalleryAdmin.html">Gallery Admin</a></li>
 			</ul>
 		</div>
 		<div id="left">
@@ -29,23 +36,9 @@
 			<div id="right_in">
 			<div class="myself">
 			<h3>MY PHOTOS</h3>
-			<table>
+			<table id="myTable">
 			<tbody>
-				<tr>
-					<td><img src="../media/1.jpg"/></td>
-					<td><img src="../media/2.jpg"/></td>
-					<td><img src="../media/3.jpg"/></td>
-				</tr>
-				<tr>
-					<td><img src="../media/4.jpg"/></td>
-					<td><img src="../media/5.jpg"/></td>
-					<td><img src="../media/6.jpg"/></td>
-				</tr>
-				<tr>
-					<td><img src="../media/7.jpg"/></td>
-					<td><img src="../media/8.jpg"/></td>
-					<td><img src="../media/9.jpg"/></td>
-				</tr>
+					
 			</tbody>
 			</table>
 			</div>
@@ -60,6 +53,6 @@
 			</ul>
 		</div>
 		<p></p>
-	<body>
+	</body>
 	
-<html>
+</html>

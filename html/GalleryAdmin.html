@@ -1,0 +1,99 @@
+<DOCTYPE! html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link type="text/css" rel="stylesheet" href="../css/galleryAdmin.css"/>
+		<title>Gallery Admin</title>
+		<script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+	</head>
+
+	<body>
+		<div id="imageview" class="view">
+		<span onclick="imageViewClose()">&times;</span>
+			<div>
+				
+			</div>
+		</div>
+		<div id="myModal" class="modal">
+			<div class="modal-content">
+				<div class="modal-header">
+					<span class="close" >&times;</span>
+					<h2>ADD IMAGE</h2>
+				</div>
+				<div class="modal-body">
+					<form name="imageForm" id='imageform'>
+						<ul class="form-style-1">
+    						<li><label>Image Url <span class="required">*</span></label>
+    						<input type="text" name="field1" class="field-divided" placeholder="Image Url" autocomplete="off" />
+    						</li>
+    						<li>
+        						<label>Image Name <span class="required">*</span></label>
+        						<input type="text" name="field2" class="field-long" placeholder="Image Name" />
+    						</li>
+	    					<li>
+	        					<label>Upload Date <span class="required">*</span></label>
+	        					<input type="number" name="field3" class="field-date" placeholder="dd" min="1" max="31"/>&nbsp;/
+	        					<input type="number" name="field3" class="field-date" placeholder="mm" min="1" max="12" />&nbsp;/
+	        					<input type="number" name="field3" class="field-date" placeholder="yyyy" min="1970" />
+	    					</li>
+	    					<li>
+	        					<label>Image Info <span class="required">*</span></label>
+	        					<input type="text" name="field4" class="field-long" placeholder="Image Info" />
+	    					</li>
+	    					<li>
+	        					<input id="popSubmit" type="submit" value="Submit" />&nbsp;&nbsp;<input id="popCancel" type="submit" value="Cancel" />
+	    					</li>
+						</ul>
+					</form>
+				</div>
+				<div class="modal-footer">
+    			</div>
+			</div>
+		</div>
+		<div id="head">
+			<a href="">Srinivas.com</a>
+
+		</div>
+		<div id="top">
+			<ul id="menu">
+			<li><a href="../index.html">Home</a></li>
+			<li><a href="Contact me.html">Contact me</a></li>
+			<li><a href="About me.html">About me</a></li>
+			<li><a href="Gallery.html">Gallery</a></li>
+			<li><a id="current" href="GalleryAdmin.html">Gallery Admin</a></li>
+			</ul>
+		</div>
+		<div id="left">
+			<h2>Menu</h2>
+			<a href="">Link 1</a>
+			<a href="">Link 2</a>
+			<a href="">Link 3</a>
+		</div>
+		<div id="right">
+			<button id="myBtn">upload</button>
+			<div id="right_in">
+			<div class="myself">
+			<h3>MY PHOTOS</h3>
+			<table id="myTable">
+			<tbody>
+
+			</tbody>
+			</table>
+			</div>
+			</div>
+		</div>
+		<div id="bottom">
+		<p>Contact me</p>
+		<ul>
+			<li id="li1" class="icons"></li>
+			<li id="li2" class="icons"></li>
+			<li id="li3" class="icons"></li>
+			</ul>
+		</div>
+		<p></p>
+		<script type="text/javascript" src="../javascript/homepage.js"></script>
+		<script type="text/javascript" src="../javascript/popup.js"></script>
+	</body>
+	
+</html>
